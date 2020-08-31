@@ -5,7 +5,7 @@ Home: https://foolbox.jonasrauber.de/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Foolbox Native is an adversarial attacks library that works natively with PyTorch, TensorFlow and JAX
 
