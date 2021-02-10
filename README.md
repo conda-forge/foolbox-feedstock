@@ -5,9 +5,13 @@ Home: https://foolbox.jonasrauber.de/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/foolbox-feedstock/blob/master/LICENSE.txt)
 
 Summary: Foolbox Native is an adversarial attacks library that works natively with PyTorch, TensorFlow and JAX
+
+Development: https://github.com/bethgelab/foolbox/
+
+Documentation: https://foolbox.readthedocs.io/en/stable/
 
 Foolbox is a Python library that let's you easily run adversarial attacks against machine learning models like deep neural networks. It is built on top of EagerPy and works natively with models in PyTorch, TensorFlow, JAX, and NumPy.
 
