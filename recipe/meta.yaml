@@ -1,5 +1,5 @@
 {% set name = "foolbox" %}
-{% set version = "3.3.1" %}
+{% set version = "3.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e49460c670afee9406a03c6085dab8544baeca8c689a3780d77f627f3c137c28
+  sha256: 1a2ba1a2de06d64112a06cb5891c65e6161c4ef81e6ff74a789eb917fee6bfb9
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
